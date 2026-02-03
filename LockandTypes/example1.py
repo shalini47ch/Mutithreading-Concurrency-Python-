@@ -21,5 +21,7 @@ for i in range(3):
 
 for t in threads:
     t.join()
+    
+#these Locks are basically the non entrant ones that is they cant be acquired more than once
 
     
